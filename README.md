@@ -29,4 +29,5 @@ Setting a specific verion
 wsl --set-version <distribution name> <versionNumber>
 ```
 
+5. Run Linux
 
