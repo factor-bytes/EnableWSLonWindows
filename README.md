@@ -8,7 +8,7 @@ dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux 
 ```
 Restart your system
 
-3. Enable virtual Machine. RUn the following command in powershell
+3. Enable virtual Machine. Run the following command in powershell
 ```
 dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
 ```
@@ -19,7 +19,7 @@ dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /nores
 ```
 wsl --set-default-version 2
 ```
-List all Linux ersions installd
+List all Linux versions installed
 ```
 wsl --list --verbose
 ```
